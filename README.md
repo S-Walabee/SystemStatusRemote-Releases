@@ -7,8 +7,12 @@ This repository holds the downloads only; the source code isn't published.
 
 ## Download
 
-Get the [latest release](https://github.com/blinken-labs/SystemStatusRemote-Releases/releases/latest). Each app
-comes as a disk image (`.dmg`) or a zip; either works.
+The host and the client are free on the Mac App Store:
+[SystemStatusRemote](https://apps.apple.com/us/app/systemstatusremote/id6820297890) and
+[SystemStatusClient](https://apps.apple.com/us/app/systemstatusclient/id6820299877).
+
+Or get the [latest release](https://github.com/blinken-labs/SystemStatusRemote-Releases/releases/latest) here.
+Each app comes as a disk image (`.dmg`) or a zip; either works. The uninstaller is only available here.
 
 | Mac | App |
 |---|---|
@@ -21,7 +25,8 @@ port 47820). Releases are signed with a Developer ID and notarized by Apple.
 
 ## Install and pair
 
-1. Open the `.dmg` and drag the app onto Applications (or unzip and move it there), then open it.
+1. Install from the Mac App Store, or open the `.dmg` and drag the app onto Applications (or unzip and move it
+   there). Then open it.
 2. **On the host**, click **Add Client…**.
 3. **On each client**, click its menu-bar item, choose the host under **Host**, and click **Request Pairing**.
    It shows three check words, such as "maple · river · copper".
