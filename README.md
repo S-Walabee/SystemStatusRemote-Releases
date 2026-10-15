@@ -8,8 +8,8 @@ This repository holds the downloads only; the source code isn't published.
 ## Download
 
 The host and the client are free on the Mac App Store:
-[SystemStatusRemote](https://apps.apple.com/us/app/systemstatusremote/id6820297890) and
-[SystemStatusClient](https://apps.apple.com/us/app/systemstatusclient/id6820299877).
+[SystemStatusRemote](https://apps.apple.com/us/app/systemstatusremote/id6820297890?pt=119567461&ct=github-readme&mt=12) and
+[SystemStatusClient](https://apps.apple.com/us/app/systemstatusclient/id6820299877?pt=119567461&ct=github-readme&mt=12).
 
 Or get the [latest release](https://github.com/blinken-labs/SystemStatusRemote-Releases/releases/latest) here.
 Each app comes as a disk image (`.dmg`) or a zip; either works. The uninstaller is only available here.
