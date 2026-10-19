@@ -1,4 +1,4 @@
-# SystemStatusRemote
+# Fuse Box
 
 Watch the CPU, GPU, memory, network, disks, battery and thermal state of several Macs at once, from one
 dashboard, with optional recorded history. From [Blinken Labs](https://blinken-labs.com).
@@ -8,17 +8,17 @@ This repository holds the downloads only; the source code isn't published.
 ## Download
 
 The host and the client are free on the Mac App Store:
-[SystemStatusRemote](https://apps.apple.com/us/app/systemstatusremote/id6820297890?pt=119567461&ct=github-readme&mt=12) and
-[SystemStatusClient](https://apps.apple.com/us/app/systemstatusclient/id6820299877?pt=119567461&ct=github-readme&mt=12).
+[Fuse Box](https://apps.apple.com/us/app/systemstatusremote/id6820297890?pt=119567461&ct=github-readme&mt=12) and
+[Fuse Box Client](https://apps.apple.com/us/app/systemstatusclient/id6820299877?pt=119567461&ct=github-readme&mt=12).
 
 Or get the [latest release](https://github.com/blinken-labs/SystemStatusRemote-Releases/releases/latest) here.
 Each app comes as a disk image (`.dmg`) or a zip; either works. The uninstaller is only available here.
 
 | Mac | App |
 |---|---|
-| The Mac that shows the dashboard | **SystemStatusRemote** (the host) |
-| Each Mac you want to watch | **SystemStatusClient**, a menu-bar item |
-| Optional | **SystemStatusUninstaller** removes the apps and everything they saved |
+| The Mac that shows the dashboard | **Fuse Box** (the host) |
+| Each Mac you want to watch | **Fuse Box Client**, a menu-bar item |
+| Optional | **Fuse Box Uninstaller** removes the apps and everything they saved |
 
 macOS 15 (Sequoia) or later on every Mac. The Macs must reach each other over the network (the host listens on
 port 47820). Releases are signed with a Developer ID and notarized by Apple.
@@ -39,7 +39,7 @@ the local network on each client (choose **Allow**).
 
 ## How many Macs
 
-The host pairs up to **2** clients. **SystemStatusRemote Pro**, a one-time purchase in the Mac App Store version
+The host pairs up to **2** clients. **Fuse Box Pro**, a one-time purchase in the Mac App Store version
 of the host, lets it pair any number; these downloads can't buy it. Macs already paired stay paired, and the
 client is always free. Settings (General) on the host shows how many Macs are paired.
 
@@ -47,19 +47,19 @@ client is always free. Settings (General) on the host shows how many Macs are pa
 
 1.1 is from Blinken Labs, so macOS sees the apps as new ones: settings and history start afresh, and every Mac
 pairs again once. Export your history from the 1.0.x host first (Settings, History) if you want to keep it. The
-new SystemStatusUninstaller can remove what the 1.0.x apps left behind. See the
+new Fuse Box Uninstaller can remove what the 1.0.x apps left behind. See the
 [1.1.0 release notes](https://github.com/blinken-labs/SystemStatusRemote-Releases/releases/tag/v1.1.0).
 
 ## If the client can't reach the host
 
 The client's menu-bar item says why.
 
-- **"didn't answer"**: check the host Mac is awake with SystemStatusRemote open, on the same network. Try
+- **"didn't answer"**: check the host Mac is awake with Fuse Box open, on the same network. Try
   **Enter an Address** with the host's IP address, shown in its **Add Client…**.
-- **"This Mac isn't allowed to use the local network"**: turn on SystemStatusClient under System Settings,
+- **"This Mac isn't allowed to use the local network"**: turn on Fuse Box Client under System Settings,
   Privacy & Security, Local Network. If it isn't listed there and macOS never asked (a macOS 27 bug), quit the
   client, run `tccutil reset All com.blinken-labs.SystemStatusClient` in Terminal, move every copy of
-  SystemStatusClient to the Trash and empty it, restart, and open it again; choose **Allow** when asked.
+  Fuse Box Client to the Trash and empty it, restart, and open it again; choose **Allow** when asked.
 
 ## Support
 
